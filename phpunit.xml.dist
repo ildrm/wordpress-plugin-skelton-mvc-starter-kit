@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.5/phpunit.xsd" bootstrap="tests/bootstrap.php" colors="true">
+  <testsuites>
+    <testsuite name="Unit, security, and architecture"><directory>tests/Unit</directory><directory>tests/Security</directory><directory>tests/Architecture</directory></testsuite>
+  </testsuites>
+  <source><include><directory>app</directory></include></source>
+</phpunit>

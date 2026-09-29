@@ -1,0 +1,15 @@
+/.github export-ignore
+/tests export-ignore
+/tests-js export-ignore
+/node_modules export-ignore
+/dist export-ignore
+/resources/js export-ignore
+/resources/css export-ignore
+/scripts export-ignore
+/phpunit.xml.dist export-ignore
+/phpunit-wp.xml.dist export-ignore
+/phpstan.neon.dist export-ignore
+/phpcs.xml.dist export-ignore
+/eslint.config.js export-ignore
+/stylelint.config.js export-ignore
+/vite.config.js export-ignore

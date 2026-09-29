@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress MVC Starter">
+  <description>PSR-12 style for namespaced PHP, with WordPress security and integration checks.</description>
+  <rule ref="PSR12"/>
+  <rule ref="WordPress.Security">
+    <exclude name="WordPress.Security.EscapeOutput.ExceptionNotEscaped"/>
+  </rule>
+  <rule ref="WordPress.DB.PreparedSQL"/>
+  <rule ref="WordPress.DB.PreparedSQLPlaceholders"/>
+  <rule ref="WordPress.PHP.DontExtract"/>
+  <rule ref="WordPress.PHP.DevelopmentFunctions"/>
+  <rule ref="WordPress.PHP.StrictInArray"/>
+  <rule ref="WordPress.WP.I18n"/>
+  <rule ref="WordPress.WP.Capabilities"/>
+  <rule ref="WordPress.WP.CronInterval"/>
+  <rule ref="WordPress.WP.EnqueuedResources"/>
+  <rule ref="WordPress.WP.DeprecatedFunctions"/>
+  <rule ref="WordPress.CodeAnalysis.EscapedNotTranslated"/>
+  <rule ref="WordPress-Docs">
+    <include-pattern>*/app/Contracts/Jobs/Job.php</include-pattern>
+    <exclude name="Squiz.Commenting.FileComment"/>
+  </rule>
+  <rule ref="Generic.Files.LineLength">
+    <properties><property name="lineLimit" value="200"/><property name="absoluteLineLimit" value="240"/></properties>
+  </rule>
+  <rule ref="PSR1.Files.SideEffects">
+    <exclude-pattern>*/plugin-name.php</exclude-pattern>
+    <exclude-pattern>*/uninstall.php</exclude-pattern>
+  </rule>
+  <file>app</file><file>bootstrap</file><file>config</file><file>routes</file><file>plugin-name.php</file><file>uninstall.php</file><file>resources/views</file>
+  <arg name="extensions" value="php"/>
+  <arg name="colors"/>
+</ruleset>

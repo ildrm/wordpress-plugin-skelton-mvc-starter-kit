@@ -1,0 +1,151 @@
+# Copyright (C) 2026 Shahin Ilderemi
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress MVC Starter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-plugin-skelton-mvc-starter-kit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-29T06:52:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wordpress-mvc-starter\n"
+
+#. Plugin Name of the plugin
+#: plugin-name.php
+msgid "WordPress MVC Starter"
+msgstr ""
+
+#. Description of the plugin
+#: plugin-name.php
+msgid "A WordPress-native MVC application starter kit."
+msgstr ""
+
+#. Author of the plugin
+#: plugin-name.php
+msgid "Shahin Ilderemi"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin-name.php
+msgid "https://ildrm.com"
+msgstr ""
+
+#: app/Http/Validation/Validator.php:21
+msgid "This field is required."
+msgstr ""
+
+#. translators: %s: validation rule name.
+#: app/Http/Validation/Validator.php:50
+#, php-format
+msgid "The %s rule failed."
+msgstr ""
+
+#: app/Providers/PluginServiceProvider.php:43
+msgid "MVC Starter could not complete a database upgrade. Review the debug log and retry with WP-CLI."
+msgstr ""
+
+#: app/Repositories/WordPress/OptionsSettingsRepository.php:19
+msgid "Hello from WordPress MVC Starter"
+msgstr ""
+
+#: app/Routing/AdminRouter.php:49
+#: app/Routing/AdminRouter.php:66
+#: app/Routing/AjaxRouter.php:51
+#: app/Routing/AjaxRouter.php:64
+#: app/Routing/RestRouter.php:86
+msgid "Permission denied."
+msgstr ""
+
+#: app/Routing/AdminRouter.php:59
+msgid "Unable to render this page."
+msgstr ""
+
+#: app/Routing/AdminRouter.php:78
+#: app/Routing/AjaxRouter.php:62
+#: app/Routing/RestRouter.php:84
+msgid "The supplied data is invalid."
+msgstr ""
+
+#: app/Routing/AdminRouter.php:81
+msgid "Unable to save the form."
+msgstr ""
+
+#: app/Routing/AjaxRouter.php:45
+msgid "Method not allowed."
+msgstr ""
+
+#: app/Routing/AjaxRouter.php:48
+msgid "Authentication required."
+msgstr ""
+
+#: app/Routing/AjaxRouter.php:55
+msgid "Invalid security token."
+msgstr ""
+
+#: app/Routing/AjaxRouter.php:67
+#: app/Routing/RestRouter.php:63
+#: app/Routing/RestRouter.php:89
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: app/Routing/RestRouter.php:69
+msgid "You are not allowed to access this endpoint."
+msgstr ""
+
+#: app/WordPress/Lifecycle/Activator.php:18
+msgid "Network activation is not supported. Activate this plugin on each site."
+msgstr ""
+
+#: plugin-name.php:24
+msgid "WordPress MVC Starter requires PHP 8.2 and WordPress 6.5 or newer."
+msgstr ""
+
+#: plugin-name.php:32
+msgid "WordPress MVC Starter is missing its Composer autoloader. Install the release ZIP or run composer install."
+msgstr ""
+
+#: resources/views/admin/settings.php:6
+msgid "MVC Starter Settings"
+msgstr ""
+
+#: resources/views/admin/settings.php:11
+msgid "Settings saved."
+msgstr ""
+
+#: resources/views/admin/settings.php:18
+msgid "Greeting"
+msgstr ""
+
+#: resources/views/admin/settings.php:20
+msgid "Display greeting"
+msgstr ""
+
+#: resources/views/admin/settings.php:24
+msgid "Enabled"
+msgstr ""
+
+#: resources/views/admin/settings.php:28
+msgid "Save Settings"
+msgstr ""
+
+#: routes/admin.php:10
+msgid "MVC Starter"
+msgstr ""
+
+#: resources/blocks/greeting/editor.js:2
+msgid "Greeting appears on the published page."
+msgstr ""
+
+#: resources/blocks/greeting/block.json
+msgctxt "block title"
+msgid "MVC Starter Greeting"
+msgstr ""
+
+#: resources/blocks/greeting/block.json
+msgctxt "block description"
+msgid "Displays the configured greeting."
+msgstr ""

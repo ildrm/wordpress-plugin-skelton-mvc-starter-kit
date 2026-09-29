@@ -1,0 +1,13 @@
+parameters:
+  level: 5
+  paths:
+    - app
+    - bootstrap
+    - routes
+  bootstrapFiles:
+    - vendor/autoload.php
+  scanFiles:
+    - plugin-name.php
+    - stubs/wp-cli.stub
+includes:
+  - vendor/szepeviktor/phpstan-wordpress/extension.neon

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "starterkit-mvc/greeting",
+  "version": "1.0.0",
+  "title": "MVC Starter Greeting",
+  "category": "widgets",
+  "description": "Displays the configured greeting.",
+  "textdomain": "wordpress-mvc-starter",
+  "supports": {"html": false}
+}

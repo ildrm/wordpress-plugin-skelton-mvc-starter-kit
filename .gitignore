@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/dist/
+/.phpunit.cache/
+/.phpunit.result.cache
+/.phpunit-watcher.yml
+/.phpstan/
+.DS_Store
+*.log

@@ -1,0 +1,20 @@
+{
+  "resources/js/admin.js": {
+    "file": "assets/admin-eynvcfUu.js",
+    "name": "admin",
+    "src": "resources/js/admin.js",
+    "isEntry": true,
+    "css": [
+      "assets/admin-BwEy4r06.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Dy62Eei7.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-CWhZxMf_.css"
+    ]
+  }
+}
