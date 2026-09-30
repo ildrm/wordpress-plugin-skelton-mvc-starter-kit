@@ -78,6 +78,7 @@ jobs:
       - run: mkdir -p /tmp/starterkit-wp/wp-content/plugins && ln -s "$GITHUB_WORKSPACE" /tmp/starterkit-wp/wp-content/plugins/wordpress-mvc-starter
       - run: php /tmp/wp core install --url=http://localhost:8999 --title=StarterKitTest --admin_user=starterkit --admin_password=temporary-test-only --admin_email=test@example.com --path=/tmp/starterkit-wp --skip-email
       - run: php /tmp/wp plugin activate wordpress-mvc-starter --path=/tmp/starterkit-wp
+      # WP-CLI evaluates these files; strict_types declarations cause a fatal error on PHP 8.3.
       - run: php /tmp/wp eval-file tests/Integration/smoke.php --path=/tmp/starterkit-wp
       - run: php /tmp/wp eval-file tests/Integration/lifecycle-smoke.php --path=/tmp/starterkit-wp
       - run: php /tmp/wp eval-file tests/Integration/admin-smoke.php --path=/tmp/starterkit-wp --context=admin

@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 if (!has_action('admin_post_starterkit_mvc_save_settings')) {
     throw new RuntimeException('Admin form handler was not registered.');

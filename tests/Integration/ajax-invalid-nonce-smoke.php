@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $admin = get_user_by('login', 'starterkit');
 wp_set_current_user($admin->ID);

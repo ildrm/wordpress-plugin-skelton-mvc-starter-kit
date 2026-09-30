@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 if (get_option('starterkit_mvc_schema_version') !== '1.0.0') {
     throw new RuntimeException('Activation did not record the schema version.');

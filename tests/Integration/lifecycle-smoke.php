@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $app = require dirname(__DIR__, 2) . '/bootstrap/app.php';
 $activator = $app->make(\StarterKit\Mvc\WordPress\Lifecycle\Activator::class);

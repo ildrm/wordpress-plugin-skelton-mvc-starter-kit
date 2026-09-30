@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $viewer = get_user_by('login', 'starterkit_viewer');
 if (!$viewer instanceof WP_User) {
